@@ -1,0 +1,12 @@
+words_ =[]
+def spin_words(sentence):
+    sentence = sentence.split()
+    for words in sentence:
+      if len(words) > 4 and words not in words_:
+        reverse_ = words[::-1]
+        words_.append(reverse_)
+    return ' '.join(words_)
+
+print(spin_words("Welcome everyone to my house"))
+
+Answer -> emocleW enoyreve esuoh
