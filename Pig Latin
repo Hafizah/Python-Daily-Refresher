@@ -1,14 +1,14 @@
 x = "Quis custodiet ipsos custodes ?"
 def pig_it(text):
-    sum=[]
+    new=[]
     for i in text.split():
         if i.isalpha():
             z = i[1:] + i[0] + "ay"
-            sum.append(z)
+            new.append(z)
             continue
         elif "!" or "?" in i:
-            sum.append(i)
-    return(str(" ".join(sum)))
+            new.append(i)
+    return(str(" ".join(new)))
         
 print(pig_it(x))
 
