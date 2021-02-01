@@ -1,1 +1,1 @@
-# Codewars
+## Daily coding practice using Python
