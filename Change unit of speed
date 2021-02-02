@@ -1,0 +1,8 @@
+# km/hr --> cm/s
+def cockroach_speed(s):
+    unit = (s * 1000 * 100)/3600
+    return round(int(unit))
+
+print(cockroach_speed(2))
+
+Answer -> 55
