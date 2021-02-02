@@ -1,0 +1,13 @@
+import math
+def is_square(n):
+  root = math.sqrt(n)
+  if int(root) ** 2 == n:
+    return "true"
+  else: 
+    return "false"
+  
+print(is_square(4))
+print(is_square(20))
+
+Answer -> True
+Answer -> False
