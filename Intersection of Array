@@ -1,0 +1,29 @@
+nums1 = [1,2,2,1]
+nums2 = [2,2]
+
+
+def intersection(nums1, nums2):
+    nums1 = set(nums1)
+    nums2 = set(nums2)
+    x = nums1.intersection(nums2)
+    y = list(x)
+    return(y)
+
+intersection(nums1,nums2)
+
+Answer -> [2]
+
+nums1 = [1,2,2,1]
+nums2 = [2,1]
+
+def intersection(nums1,nums2):
+    nums3 = []
+    for i in nums1:
+        if i in nums2:
+            nums3.append(i)
+            nums2.remove(i)
+    return list(nums3)
+     
+print(intersection(nums1,nums2))
+
+Answer -> [1,2]
