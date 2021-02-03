@@ -1,0 +1,6 @@
+def format_money(amount):
+    return "$" + format(amount, '.2f')
+
+print(format_money(2))
+
+Answer -> $2.00
