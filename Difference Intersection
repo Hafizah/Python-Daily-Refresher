@@ -1,0 +1,24 @@
+s1 = "abce"
+s2 = "abcd"
+''.join(set(s1) ^ set(s2))
+
+Answer -> 'de'
+-----------------------------------------------------------------------
+def solve(a, b):
+    return ''.join(i for i in a+b if not (i in a and i in b))
+print(solve("abce", "abcd"))
+
+Answer -> ed
+-----------------------------------------------------------------------
+''.join(set(s1).symmetric_difference(s2))
+
+Answer -> 'de'
+------------------------------------------------------------------------
+def solve(a, b):
+    seta = set(a)
+    setb = set(b)
+    return "".join(seta.union(setb).difference(seta.intersection(setb)))
+print(solve("abce", "abcd"))
+
+Answer -> 'de'
+-------------------------------------------------------------------------
