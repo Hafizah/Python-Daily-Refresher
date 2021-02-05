@@ -4,17 +4,25 @@ def high_and_low(numbers):
     new_numbers = numbers.split(" ")
     low = min(new_numbers, key = int)
     high = max(new_numbers, key = int)
-    final = high + ' ' + low
+    final = low + ' ' + high
     return final
 print(high_and_low(numbers))
 Answer -> -214 542
 ------------------------------------------------------------------------
 
 def high_and_low(numbers):
-    nn = [int(s) for s in numbers.split(" ")]
-    return "%i %i" % (max(nn),min(nn))
+    new = [int(s) for s in numbers.split(" ")]
+    return "%i %i" % (max(new),min(new))
 ------------------------------------------------------------------------
 def high_and_low(numbers):
     nums = sorted(numbers.split(), key=int)
     return '{} {}'.format(nums[-1], nums[0])
+------------------------------------------------------------------------
+def high_and_low(numbers):
+  numbers = [int(c) for c in numbers.split(' ')]
+  return f"{max(numbers)} {min(numbers)}"]
+------------------------------------------------------------------------
+def high_and_low(numbers):
+    nums = map(int, numbers.split(" "))
+    return " " .join(map(str, (max(nums), min(nums))))
 ------------------------------------------------------------------------
