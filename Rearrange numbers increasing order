@@ -1,0 +1,9 @@
+num = 145263
+def descending_order(num):
+    num = sorted(str(num), reverse = True)
+    for i in num:
+        if len(num) == 1 and i == 0: return 0
+        return ''.join(num)
+print(descending_order(num))
+
+Answer -> 654321
