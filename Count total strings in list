@@ -1,0 +1,10 @@
+x = ['mon', 'wed', 'mon', 'tue', 'mon']
+counts = {}
+for val in x:
+    if val in counts.keys():
+        counts[val] += 1
+    else:
+        counts[val] = 1
+print(counts)
+
+Answer: {'mon': 3, 'wed': 1, 'tue': 1}
