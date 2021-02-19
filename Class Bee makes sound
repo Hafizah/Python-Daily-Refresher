@@ -1,0 +1,11 @@
+class Bee:
+    def __init__(self):
+    	self.sound = 'Buzz!'
+    def MakeSound(self):
+    	print(self.sound)
+bee_obj = Bee()
+print(bee_obj.MakeSound())
+
+Answer: 
+Buzz!
+None
