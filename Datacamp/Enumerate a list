@@ -1,0 +1,5 @@
+names = ['Thor Odinson', 'Steve Rogers']
+avengers = enumerate(names, start = 2)
+print(*avengers)
+
+answer --> (2, 'Thor Odinson') (3, 'Steve Rogers')
