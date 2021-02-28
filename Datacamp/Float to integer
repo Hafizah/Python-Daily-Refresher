@@ -1,0 +1,5 @@
+floats = [6.39, 4.74, 4.32, 5.41]
+integers = [round(n) for n in floats]
+print(integers)
+
+Answer: [6, 5, 4, 5]
