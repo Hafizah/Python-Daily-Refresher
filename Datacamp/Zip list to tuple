@@ -1,0 +1,12 @@
+names = ['Natasha Romanoff', 'Clint Barton']
+characters = ['Black Widow', 'Hawkeye']
+names1 = ['Chris Hemsworth', 'Chris Evans']
+characters1 = ['Thor Odinson','Steve Rogers']
+
+avengers = zip(characters1, names)
+print(*avengers)         
+
+Answer --> ('Thor Odinson', 'Natasha Romanoff') ('Steve Rogers', 'Clint Barton')
+
+
+# '*' helps to show answers below. Or else, it will show <zip object at 0x7f0056701dc0>
