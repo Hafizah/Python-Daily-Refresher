@@ -1,0 +1,14 @@
+One of the ways in which lists can be used are in representing multi-dimension objects such as matrices. 
+Matrices can be represented as a list of lists in Python. 
+For example a 5 x 5 matrix with values 0 to 4 in each row can be written as:
+
+matrix = [[0, 1, 2, 3, 4],
+          [0, 1, 2, 3, 4],
+          [0, 1, 2, 3, 4],
+          [0, 1, 2, 3, 4],
+          [0, 1, 2, 3, 4]]
+          
+Code:
+matrix = [[col for col in range(5)] for row in range(5)]
+for row in matrix:
+    print(row)
