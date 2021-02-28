@@ -1,0 +1,4 @@
+int_list = [-2, 4, 1, 6, -3]
+print(x for x in int_list if x > 0)
+
+Answer --> <generator object <genexpr> at 0x7f926e592580>
