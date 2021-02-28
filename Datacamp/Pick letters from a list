@@ -1,0 +1,5 @@
+x = [7, 'D', 'E', 8, 9, 'F']
+strings = [i for i in x if type(i)==str]
+print(strings)
+
+Answer --> ['D', 'E', 'F']
