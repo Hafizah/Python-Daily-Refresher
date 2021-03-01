@@ -3,3 +3,12 @@ new_fellowship = [member if len(member) >= 7 else '' for member in fellowship]
 print(new_fellowship)
 
 Answer -->  ['', 'samwise', '', 'aragorn', 'legolas', 'boromir', '']
+____________________________________________________________________________________
+
+x = [8, 'M', 'N', 3, 1, 'A']
+intergers = [i for i in x if type(i) == int]
+print(intergers)
+
+Ans: [8, 3, 1]
+
+____________________________________________________________________________________
