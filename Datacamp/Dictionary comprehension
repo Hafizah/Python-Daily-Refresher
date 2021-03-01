@@ -3,3 +3,14 @@ new_fellowship = { member:len(member) for member in fellowship }
 print(new_fellowship)
 
 Answer: {'frodo': 5, 'samwise': 7, 'merry': 5, 'aragorn': 7, 'legolas': 7, 'boromir': 7, 'gimli': 5}
+_____________________________________________________________________________________________________________
+
+x = [2, 4, 1, 5]
+squares = {i: i**2 for i in x}
+print(squares)
+print(type(squares))
+
+Ans: 
+{2: 4, 4: 16, 1: 1, 5: 25}
+<class 'dict'>
+_____________________________________________________________________________________________________________
