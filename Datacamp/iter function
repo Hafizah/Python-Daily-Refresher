@@ -1,0 +1,21 @@
+x = [1, 2, 3]
+x_it = iter(x)
+next(x_it)
+print(next(x_it))
+
+Answer --> 2
+
+______________________________
+
+x = [1, 2, 3]
+x_it = iter(x)
+next(x_it)
+next(x_it)
+next(x_it)
+print(next(x_it))
+
+Answer --> 
+
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+StopIteration
