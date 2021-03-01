@@ -19,3 +19,17 @@ Answer -->
 Traceback (most recent call last):
   File "<string>", line 6, in <module>
 StopIteration
+
+______________________________
+
+scarlet_speedster = iter('Barry Allen')
+print(*scarlet_speedster)
+print(next(scarlet_speedster))
+
+Answer: 
+B a r r y   A l l e n
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+StopIteration
+
+______________________________
