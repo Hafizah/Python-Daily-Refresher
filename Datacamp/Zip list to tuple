@@ -15,12 +15,8 @@ ________________________________________________________________________________
 
 x = ['May', 'Apr', 'Sep']
 y = [86, 93, 55]
-lists = 
-zip
-(x, y)
-new_dict = 
-dict
-(lists)
+lists = zip(x, y)
+new_dict = dict(lists)
 print(new_dict)
 
 Ans: {'May': 86, 'Apr': 93, 'Sep': 55}
