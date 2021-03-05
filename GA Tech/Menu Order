@@ -4,23 +4,7 @@ queso = False
 guacamole = False
 double_meat = False
 
-
 #-----------------------------------------------------------
-#You may modify the lines of code above, but don't move them!
-#When you Submit your code, we'll change these lines to
-#assign different values to the variables.
-#
-#Let's further expand our previous program to cover a broader
-#menu variety. Instead of just burritoes, now the program
-#should cover three menu items: quesadillas, burritoes, and
-#nachos. Instead of separate booleans for steak and pork,
-#we instead have a string that could be "steak", "pork",
-#"chicken", "tofu", and "beef". We still have booleans for
-#queso and guacamole, but we also have a boolean for double
-#meat.
-#
-#Your code should calculate the price as follows:
-#
 # - The base price for a quesadilla is 4.00, for nachos is
 #   4.50, and for burritoes is 5.00.
 # - If meat is steak or pork, add 0.50. Any other meat adds
@@ -30,7 +14,7 @@ double_meat = False
 #   in which case it adds nothing.
 # - double_meat adds 1.50 if the meat is steak or pork, or
 #   1.00 otherwise.
-
+#-----------------------------------------------------------
 
 base_price = 4.5
 if item == "quesadilla":
