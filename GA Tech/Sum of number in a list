@@ -1,3 +1,5 @@
+___________Function____________
+
 def listsum(numList):
     theSum = 0
     for i in numList:
@@ -7,3 +9,11 @@ def listsum(numList):
 print(listsum([1,3,5,7,9]))
 
 Answer --> 25
+
+___________Without Function____________
+
+inter = [1,3,5,7,9]
+sum = 0
+for i in inter:
+    sum = sum + i
+print(sum)
