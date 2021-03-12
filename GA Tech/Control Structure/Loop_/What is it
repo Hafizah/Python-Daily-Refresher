@@ -1,1 +1,5 @@
-
+A loop is a control structure that repeats some lines of code until a certain condition is met.
+We don't just have to copy and paste chunks of code if we want to do something more than once.
+Two kinds of common loops-- for loops and while loops.
+Anything you can do with a for loop you can also do with a while loop. 
+However, each one is better suited to certain kinds of tasks, which we'll talk about.
